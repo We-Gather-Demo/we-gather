@@ -3,8 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import memberRoutes from './routes/members.ts';
-import eventRoutes from './routes/events.ts';
+import memberRoutes from './routes/members';
+import eventRoutes from './routes/events';
 
 
 const app = express();
