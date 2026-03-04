@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 224 60% 11%;
+    --foreground: 0 0% 100%;
+    --card: 222 40% 18%;
+    --card-foreground: 0 0% 100%;
+    --popover: 222 40% 18%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 174 58% 64%;
+    --primary-foreground: 224 60% 11%;
+    --secondary: 228 67% 41%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 222 40% 18%;
+    --muted-foreground: 174 20% 60%;
+    --accent: 298 93% 85%;
+    --accent-foreground: 224 60% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 222 40% 24%;
+    --input: 222 40% 24%;
+    --ring: 174 58% 64%;
+    --radius: 0.75rem;
+    --sidebar-background: 222 40% 14%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 174 58% 64%;
+    --sidebar-primary-foreground: 224 60% 11%;
+    --sidebar-accent: 228 67% 41%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 222 40% 24%;
+    --sidebar-ring: 174 58% 64%;
+    --glow: 298 93% 85%;
+    --teal: 174 58% 64%;
+    --deep-blue: 228 67% 41%;
+    --navy: 222 40% 18%;
+  }
+  body { @apply bg-background text-foreground antialiased; }
+  h1 { @apply text-foreground; font-family: 'Cosmic Octo Heavy', 'Orbitron', sans-serif; }
+  h2, h3 { @apply text-foreground; font-family: 'Michroma', sans-serif; }
+}
+
+@layer utilities {
+  .glow-accent { box-shadow: 0 0 40px hsl(298 93% 85% / 0.15), 0 0 80px hsl(298 93% 85% / 0.05); }
+  .glow-teal { box-shadow: 0 0 30px hsl(174 58% 64% / 0.2), 0 0 60px hsl(174 58% 64% / 0.08); }
+  .glow-text { text-shadow: 0 0 20px hsl(174 58% 64% / 0.5), 0 0 40px hsl(298 93% 85% / 0.3); }
+  .bg-glow-radial {
+    background: radial-gradient(ellipse at 50% 0%, hsl(298 93% 85% / 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 80%, hsl(174 58% 64% / 0.05) 0%, transparent 50%), hsl(224 60% 11%);
+  }
+  .glass-card { @apply bg-card/50 backdrop-blur-xl border border-border/50 rounded-xl; }
+}
