@@ -1,9 +1,9 @@
 
 # #75Her Decision Log
 
-> Project Name: [Insert Project Name]
+> Project Name: WeGather
 > 
->Team Name: [Insert Team Name]
+>Team Name: WeGather
 
 
 ## 📋 Purpose & Instructions
