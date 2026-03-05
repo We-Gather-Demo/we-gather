@@ -92,9 +92,9 @@ http://localhost:[PORT]
 
 | Log Type | Purpose | Link |
 |----------|---------|------|
-| Decision Log | Technical choices & tradeoffs | [/docs/DECISION_LOG.md](/docs/DECISION_LOG.md) |
-| Risk Log | Issues identified & mitigations | [/docs/RISK_LOG.md](/docs/RISK_LOG.md) |
-| Evidence Log | Sources, assets & attributions | [/docs/EVIDENCE_LOG.md](/docs/EVIDENCE_LOG.md) |
+| Decision Log | Technical choices & tradeoffs | [DECISION_LOG.md](we-gather/docs/DECISION_LOG.md) |
+| Risk Log | Issues identified & mitigations | [RISK_LOG.md](we-gather/docs/RISK_LOG.md) |
+| Evidence Log | Sources, assets & attributions | [EVIDENCE_LOG.md](/docs/EVIDENCE_LOG.md) |
 
 ---
 
