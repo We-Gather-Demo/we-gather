@@ -1,7 +1,7 @@
 import { createThirdwebClient, getContract } from 'thirdweb'
 import { baseSepolia } from 'thirdweb/chains'
 import { ConnectButton, TransactionButton } from 'thirdweb/react'
-import { claimTo } from 'thirdweb/extensions/erc721'
+import { claimTo } from 'thirdweb/extensions/erc1155'
 import { useActiveAccount } from 'thirdweb/react'
 
 const clientId = import.meta.env.VITE_THIRDWEB_CLIENT_ID
@@ -71,6 +71,7 @@ export default function ClaimButton() {
             claimTo({
               contract,
               to: account.address,
+              tokenId: BigInt(0),
               quantity: BigInt(1),
             })
           }
