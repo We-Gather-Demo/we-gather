@@ -19,9 +19,9 @@ Target: 5–10 key decisions minimum.
 
 | Category | Decision --> Why | Tradeoff |
 |----------|---------|------|
-| Decision Log | Technical choices & tradeoffs | [/docs/DECISION_LOG.md](/docs/DECISION_LOG.md) |
-| Risk Log | Issues identified & mitigations | [/docs/RISK_LOG.md](/docs/RISK_LOG.md) |
-| Evidence Log | Sources, assets & attributions | [/docs/EVIDENCE_LOG.md](/docs/EVIDENCE_LOG.md) |
+| Frontend Tech Stack | Choosing the React + Vite framework --> React + Vite works well with the Prisma stack | Rewriting the original blueprint and some of the smart contract |
+| - | -| - |
+| - | - | - |
 
 ##📝 Guidance for Success
 
