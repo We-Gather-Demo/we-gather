@@ -111,14 +111,13 @@ http://localhost:[PORT]
 
 | Name | Role | GitHub | LinkedIn |
 |------|------|--------|----------|
-| Kaya Hampton | Project Manager | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| Andrea Scales | Designer/Frontend Designer | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| Harshita | Backend Developer | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
+| Kaya Hampton | Project Manager | [@kayah13](https://github.com/kayah13) | [Profile](https://linkedin.com/in/username) |
+| Andrea Scales | Designer/Frontend Designer | [@username](https://github.com/AndreaScales) | [Profile](https://linkedin.com/in/username) |
+| Harshita | Backend Developer | [@username](https://github.com/harshita264) | [Profile](https://linkedin.com/in/username) |
 
 ### Special Thanks
 
 - [CreateHER Fest](https://createherfest.com)
-- [Mentor Name]
 - goose / Block
 
 ---
