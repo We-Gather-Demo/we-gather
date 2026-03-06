@@ -1,7 +1,7 @@
 # #75HER Challenge: Risk Log
 
-**Project Name:** [Insert Project Name]  
-**Team Name:** [Insert Team Name]
+**Project Name:** WeGather
+**Team Name:** WeGather Team
 
 ---
 
@@ -46,12 +46,13 @@ Document and fix if time permits:
 
 | Area | Issue Description | Severity | Fix Applied | Evidence / Link | Status |
 |------|------------------|----------|-------------|-----------------|--------|
-| Privacy | API key visible in code | 🔴 Critical | Removed key and added `.env.example` | `.env.example` | ✅ Fixed |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Deployment | Issues connecting frontend with backend | 🔴 Critical | Changed next.js imports, to React + Vite | `.env.example` | ✅ Fixed |
+| NFT Retrieval | Issue with NFT retrieved | 🔴 Critical |Rewrote smart contract using ThirdWeb |-- | ✅ Fixed |
+| Missing citations | Late on citing resources in GitHub repo | 🟠 Major | | |✅ Fixed |
+| Understanding accessibility requirements |Unfamiliar with items listed in requirements description for CreateHer Hackathon | 🟠 Major | | | |
+| Choosing frontend framework | Choosing between React + Vite or Next.js | 🟠 Major | | | ✅ Fixed|
+| Keeping track of all requirements | Remembering crucial details for submission| 🟠 Major | | |✅ Fixed |
+| Updating Discord Link Button| 🟡 Minor | | | | |
 
 ---
 
