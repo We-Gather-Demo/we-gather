@@ -98,9 +98,9 @@ cd frontend && npm install && npm run dev
 
 | Log Type | Purpose | Link |
 |----------|---------|------|
-| Decision Log | Technical choices & tradeoffs | [/docs/DECISION_LOG.md](/docs/DECISION_LOG.md) |
-| Risk Log | Issues identified & mitigations | [/docs/RISK_LOG.md](/docs/RISK_LOG.md) |
-| Evidence Log | Sources, assets & attributions | [/docs/EVIDENCE_LOG.md](/docs/EVIDENCE_LOG.md) |
+| Decision Log | Technical choices & tradeoffs | [/docs/DECISION_LOG.md](frontend/frontend/DECISION_LOG.md) |
+| Risk Log | Issues identified & mitigations | [/docs/RISK_LOG.md](frontend/frontend/RISK_LOG.md) |
+| Evidence Log | Sources, assets & attributions | [/docs/EVIDENCE_LOG.md](frontend/frontend/EVIDENCE_LOG.md) |
 
 ---
 
