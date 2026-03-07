@@ -86,10 +86,11 @@ cd frontend && npm install && npm run dev
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| **Frontend** | [Technology] | [Purpose] |
-| **Backend** | [Technology] | [Purpose] |
-| **Database** | [Technology] | [Purpose] |
-| **AI Integration** | [Model] | [Purpose] |
+| **Frontend** | Vite + React + TypeScript, React Router, TanStack React Query, TailwindCSS, Radix UI | SPA with token-gated routing, server-state management, and accessible UI components |
+| **Backend** | Node.js + Express + TypeScript | REST API serving member, event, and RSVP endpoints |
+| **Database** | Prisma ORM + SQLite (`backend/dev.db`) | Schema management, migrations, and local data persistence |
+| **Web3 / NFT** | thirdweb (v5) | Wallet connection and founding-member NFT claiming/verification on Base Sepolia |
+| **AI Integration** | Described in project vision; not yet wired up in code | Intended to handle logistics and surface relevant resources based on community discussions |
 
 ---
 
@@ -105,9 +106,26 @@ cd frontend && npm install && npm run dev
 
 ## 🧪 Testing & Known Issues
 
-- **Test Results:** [X passing / Y total]
-- **Known Issue:** NFT retrieval issues - only able to retrieve with gas of Base Sepolia
-- **Next Steps:** [What you would add with more time]
+### Automated Tests
+No automated test runner is configured yet — neither `frontend/package.json` nor `backend/package.json` defines a `test` script.
+
+### Linting
+Frontend linting is set up via ESLint and can be run with:
+```bash
+cd frontend && npm run lint
+```
+
+### Known Issues
+| # | Issue | Detail |
+|---|-------|--------|
+| 1 | **NFT retrieval / network constraint** | NFT claiming and retrieval only works when the connected wallet has gas on **Base Sepolia**. Ensure you have Base Sepolia ETH before attempting to claim a founding-member NFT. |
+| 2 | **Backend CORS hard-coded to production origin** | `backend/src/index.ts` sets `origin: "https://we-gather-psi.vercel.app/"`. Local frontend requests from `http://localhost:5173` will be blocked by CORS. To develop locally, temporarily change the origin to `http://localhost:5173` (or an array of allowed origins) and restart the backend. |
+| 3 | **Schema / migration mismatch risk** | The initial migration creates `email NOT NULL`, but the Prisma schema marks `email` as optional. If the database was initialised with the first migration before the schema was updated, email constraints may differ from what the ORM expects. Run `npx prisma migrate status` to confirm migrations are in sync. |
+
+### Next Steps
+- **Backend route tests**: Add [Vitest](https://vitest.dev/) (or Jest) + [Supertest](https://github.com/ladjs/supertest) to test Express routes (member creation, RSVP, event listing).
+- **Frontend component tests**: Add Vitest + [Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for component and hook coverage.
+- **CI**: Set up a GitHub Actions workflow to run linting and tests on every pull request.
 
 ---
 
@@ -130,12 +148,22 @@ cd frontend && npm install && npm run dev
 
 ## 📄 License & Attributions
 
-**Project License:** [MIT / Apache 2.0 / etc.]
+**Project License:** MIT — see the [LICENSE](./LICENSE) file for full terms.
+
+Dependencies are distributed under their own respective licenses; refer to each project's documentation for details.
+
+### Key Attributions
 
 | Library / Asset | License | Link |
 |----------------|---------|------|
-| [Library/Asset Name] | [License Type] | [Link] |
-| [Library/Asset Name] | [License Type] | [Link] |
+| React | MIT | [react.dev](https://react.dev) |
+| Vite | MIT | [vitejs.dev](https://vitejs.dev) |
+| Express | MIT | [expressjs.com](https://expressjs.com) |
+| Prisma | Apache-2.0 | [prisma.io](https://www.prisma.io) |
+| TailwindCSS | MIT | [tailwindcss.com](https://tailwindcss.com) |
+| Radix UI | MIT | [radix-ui.com](https://www.radix-ui.com) |
+| TanStack Query | MIT | [tanstack.com/query](https://tanstack.com/query) |
+| thirdweb | Apache-2.0 | [thirdweb.com](https://thirdweb.com) |
 
 ---
 
