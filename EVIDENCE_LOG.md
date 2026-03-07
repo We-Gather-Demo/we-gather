@@ -1,7 +1,7 @@
 # #75HER Challenge: Evidence Log
 
-**Project Name:** [Insert Project Name]  
-**Team Name:** [Insert Team Name]
+**Project Name:** WeGather  
+**Team Name:** We-Gather
 
 ---
 
@@ -21,16 +21,21 @@ Any number, logo, dataset, code library, or claim must trace back to this log or
 
 | Item / Claim | Purpose in Project | Source Link | Type | License / Attribution | Notes |
 |---------------|-------------------|-------------|------|-----------------------|-------|
-| React | Frontend framework | https://react.dev | Code | MIT License | v18.2.0 |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| React | Frontend UI framework | https://react.dev | Code | MIT License | v18.3.1 |
+| React Router DOM | Client-side page routing | https://reactrouter.com | Code | MIT License | v6.22.0 |
+| Tailwind CSS | Utility-first CSS styling | https://tailwindcss.com | Code | MIT License | v3.4.1 |
+| TypeScript | Static typing for JS | https://www.typescriptlang.org | Code | Apache 2.0 | v5 (frontend & backend) |
+| Vite | Frontend build tool & dev server | https://vite.dev | Code | MIT License | v5.1.4 |
+| Express | Backend web framework | https://expressjs.com | Code | MIT License | v5.2.1 |
+| Prisma | ORM and database client | https://www.prisma.io | Code | Apache 2.0 | v5.22.0; used with SQLite |
+| SQLite | Embedded relational database | https://www.sqlite.org | Code | Public Domain | Managed via Prisma |
+| thirdweb | Web3 / NFT integration (founding member badges) | https://thirdweb.com | Code | Apache 2.0 | v5.119.0 |
+| Radix UI | Accessible headless UI components | https://www.radix-ui.com | Code | MIT License | Multiple packages (accordion, dialog, etc.) |
+| TanStack React Query | Server-state data fetching & caching | https://tanstack.com/query | Code | MIT License | v5.51.23 |
+| Framer Motion | UI animations | https://www.framer.com/motion | Code | MIT License | v10.16.4 |
+| Recharts | Data visualization / charts | https://recharts.org | Code | MIT License | v2.12.7 |
+| Lucide React | Icon library | https://lucide.dev | Code | ISC License | v0.263.1 |
+| React Hook Form | Form state management & validation | https://react-hook-form.com | Code | MIT License | v7.53.2 |
 
 ---
 
@@ -40,11 +45,8 @@ Any number, logo, dataset, code library, or claim must trace back to this log or
 
 | AI Tool Used | Purpose | What AI Generated | What You Changed | Verification Method |
 |---------------|--------|------------------|------------------|--------------------|
-| goose | API Code | Function stubs | Added error handling | Tested 10 API calls |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+| Goose | API Code | Function stubs | Added error handling | Tested 10 API calls |
+| Claude | UI components & layout | Component scaffolding and styling | Adjusted styles, wording, and logic for project context | Manually reviewed and tested in browser |
 
 ---
 
@@ -110,10 +112,10 @@ Always document:
 
 # ✅ Submission Checklist
 
-- [ ] At least **3 credible sources documented**
+- [x] At least **3 credible sources documented**
 - [ ] Every **image, icon, and asset** has license information
-- [ ] All **code dependencies (npm/pip)** are listed with licenses
-- [ ] **AI-generated content** includes a *"What You Changed"* description
+- [x] All **code dependencies (npm/pip)** are listed with licenses
+- [x] **AI-generated content** includes a *"What You Changed"* description
 - [ ] All **links are active and accessible** to judges
 - [ ] No **"TBD" or placeholder text** remains
 
