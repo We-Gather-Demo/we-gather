@@ -118,8 +118,8 @@ cd frontend && npm install && npm run dev
 | Name | Role | GitHub | LinkedIn |
 |------|------|--------|----------|
 | Kaya Hampton | Project Manager | [@kayah13](https://github.com/kayah13) | [Profile](https://linkedin.com/in/kayahampton) |
-| Andrea Scales | Designer/Frontend Designer | [@username](https://github.com/AndreaScales) | [Profile](https://linkedin.com/in/username) |
-| Harshita | Backend Developer | [@username](https://github.com/harshita264) | [Profile](https://linkedin.com/in/username) |
+| Andrea Scales | Designer/Frontend Designer | [@AndreaScales](https://github.com/AndreaScales) | [Profile](https://linkedin.com/in/AndreaScales) |
+| Harshita | Backend Developer | [@harshita264](https://github.com/harshita264) | [Profile](https://linkedin.com/in/username) |
 
 ### Special Thanks
 
