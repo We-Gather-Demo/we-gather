@@ -7,7 +7,7 @@
 
 ## 📋 Table of Contents
 
--[Problem Statement](#-problem-statement)
+- [Problem Statement](#-problem-statement)
 - [Solution Overview](#-solution-overview)
 - [Quick Start & Demo](#-quick-start--demo)
 - [Technical Architecture](#️-technical-architecture)
