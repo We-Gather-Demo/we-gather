@@ -7,7 +7,7 @@
 
 ## 📋 Table of Contents
 
-- [Problem Statement](#-problem-statement)
+-[Problem Statement](#-problem-statement)
 - [Solution Overview](#-solution-overview)
 - [Quick Start & Demo](#-quick-start--demo)
 - [Technical Architecture](#️-technical-architecture)
@@ -43,26 +43,33 @@ We Gather is a community platform that transforms learning about systemic issues
 
 ## 🚀 Quick Start & Demo
 
-### Requirements
+# We Gather - Quick Start
 
-- Node 18+
-- Python 3.9+
-- API keys (if required)
+## Run the App
 
-### Installation
-
+**Terminal 1 - Backend:**
 ```bash
-# Clone and run
-git clone [your-repo-url] && cd [project-name] && [your-setup-command]
+chmod +x start-backend.sh && ./start-backend.sh
 ```
 
-### Access
-
-Open in your browser:
-
+**Terminal 2 - Frontend:**
+```bash
+chmod +x start-frontend.sh && ./start-frontend.sh
 ```
-http://localhost:[PORT]
+
+Or manually:
+```bash
+# Backend (Terminal 1)
+cd backend && npx prisma generate && npx prisma db push && npm run dev
+
+# Frontend (Terminal 2)
+cd frontend && npm install && npm run dev
 ```
+
+## Endpoints
+- Backend: `http://localhost:3001`
+- Frontend: `http://localhost:5173`
+- Database: SQLite (`backend/dev.db`)
 
 ### 60-Second Demo Path
 
