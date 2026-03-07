@@ -31,13 +31,13 @@
 
 ## ✨ Solution Overview
 
-We Gather is a community platform that transforms learning about systemic issues into tangible collective action. Members pay $10/month to access structured programs—from anti-capitalist book clubs to wellness cohorts—while automatically contributing to a pooled mutual aid fund that distributes resources to grassroots organizations (which will be featured 2; coming at a later date after the hackathon)
+We Gather is a token-gated community built on shared values, mutual aid, and collective resource-building. Members claim a founding NFT to gain verified access to a Discord community where they co-work, share resources, and grow together. In Phase 2, members will vote on where to direct the community's collective 10% investment into mutual aid networks doing real work on the ground. It's infrastructure for people who've been locked out of every other room.
 
 ### Key Features
 
-- **Feature 1** — NFT and recognition system, to show founding member status, participation badges, and engagement rewards. This adds excitement and inclusion to the platform.
-- **Feature 2** — [What it does + why it matters]
-- **Feature 3** — [What it does + why it matters]
+- **Feature 1** — NFT and recognition system, to show founding member status, participation badges, and engagement rewards. This adds excitement and inclusion to the platform. 
+- **Feature 2** A verified, token-gated space where members connect, co-work, share resources, and organize around mutual aid.
+It turns the NFT from a digital asset into an active, intentional community.
 
 ---
 
@@ -75,9 +75,8 @@ cd frontend && npm install && npm run dev
 
 | Step | Action | Expected Result |
 |------|--------|-----------------|
-| 1 | [Action user takes] | [Expected result] |
-| 2 | [Action user takes] | [Expected result] |
-| 3 | [Action user takes] | [Expected result] |
+| 1 | User navigates to Vercel to claim their Founding Member NFT | NFT is claimed and in their wallet |
+| 2 | User joins our Discord and verifies their Founding Member NFT in the #welcome channel by sending /verify | NFT is verified and user is granted the Founding Member role and acesses all channels |
 
 📹 **Demo Video:** [Insert Link]  &nbsp;|&nbsp;  🔗 **Live Demo:** [Insert Link]
 
@@ -118,7 +117,7 @@ cd frontend && npm install && npm run dev
 
 | Name | Role | GitHub | LinkedIn |
 |------|------|--------|----------|
-| Kaya Hampton | Project Manager | [@kayah13](https://github.com/kayah13) | [Profile](https://linkedin.com/in/username) |
+| Kaya Hampton | Project Manager | [@kayah13](https://github.com/kayah13) | [Profile](https://linkedin.com/in/kayahampton) |
 | Andrea Scales | Designer/Frontend Designer | [@username](https://github.com/AndreaScales) | [Profile](https://linkedin.com/in/username) |
 | Harshita | Backend Developer | [@username](https://github.com/harshita264) | [Profile](https://linkedin.com/in/username) |
 
