@@ -25,7 +25,7 @@
 |---|---|
 | **Who** |  Individuals experiencing isolation, burnout, and disempowerment under current economic systems who want to take collective action but lack accessible entry points. |
 | **Problem** | People seeking alternatives to extractive capitalism can't easily find structured, affordable communities that combine education, mutual support, and direct action—existing options are either too academic, too expensive, or lack accountability in fund distribution. |
-| **Impact** | We Gather integrates education, mutual support, and redistribution in one ecosystem. The AI doesn't extract value—it facilitates deeper human connection by handling logistics and suggesting relevant resources based on community discussions. |
+| **Impact** | We Gather integrates education, mutual support, and redistribution in one ecosystem. The structure connects the right people, surfaces shared resources, and creates accountability through community ownership. Everyone who enters is invested in making it work because they built it together. |
 
 ---
 
@@ -76,7 +76,7 @@ cd frontend && npm install && npm run dev
 | Step | Action | Expected Result |
 |------|--------|-----------------|
 | 1 | User navigates to Vercel to claim their Founding Member NFT | NFT is claimed and in their wallet |
-| 2 | User joins our Discord and verifies their Founding Member NFT in the #welcome channel by sending /verify | NFT is verified and user is granted the Founding Member role and acesses all channels |
+| 2 | User joins our Discord and verifies their Founding Member NFT in the #welcome channel by sending the /verify command | NFT is verified and user is granted the Founding Member role and acesses all channels |
 
 📹 **Demo Video:** [Insert Link]  &nbsp;|&nbsp;  🔗 **Live Demo:** [Insert Link]
 
@@ -131,7 +131,7 @@ cd frontend && npm run lint
 
 ## 👥 Team & Acknowledgments
 
-**Team Name:** [Your Team Name]
+**Team Name:** We Gather
 
 | Name | Role | GitHub | LinkedIn |
 |------|------|--------|----------|
@@ -142,7 +142,7 @@ cd frontend && npm run lint
 ### Special Thanks
 
 - [CreateHER Fest](https://createherfest.com)
-- Athika Fatima
+- Athika Fatima (https://www.linkedin.com/in/athika-fatima/)
 - goose / Block
 
 ---
