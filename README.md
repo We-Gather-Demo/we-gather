@@ -124,6 +124,7 @@ cd frontend && npm install && npm run dev
 ### Special Thanks
 
 - [CreateHER Fest](https://createherfest.com)
+- Athika Fatima
 - goose / Block
 
 ---
